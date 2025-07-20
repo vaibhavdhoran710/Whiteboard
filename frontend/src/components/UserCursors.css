@@ -1,0 +1,10 @@
+.cursor-dot {
+  position: fixed;
+  width: 10px;
+  height: 10px;
+  background-color: rgba(0, 0, 255, 0.7);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 20;
+  transform: translate(-50%, -50%);
+}
